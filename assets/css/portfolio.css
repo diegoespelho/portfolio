@@ -140,6 +140,13 @@
     gap: 4rem;
   }
 
+  .portfolio-container::after {
+    width: 10rem;
+    height: 10rem;
+    background: url(../img/leaf-2.svg) no-repeat center;
+    bottom: -3.8rem;
+  }
+
   .portfolio .subtitulo {
     color: #ffffff;
   }
