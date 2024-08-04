@@ -35,7 +35,7 @@
 }
 
 .empresa::before {
-  content: '';
+  content: "";
   display: block;
   width: 4px;
   height: 20px;
@@ -70,7 +70,7 @@
 .empresa-habilidades {
   display: flex;
   flex-wrap: wrap;
-  grid-area: 1rem;
+  gap: 1rem;
   align-content: start;
 }
 
@@ -80,4 +80,36 @@
   border-radius: 0.4rem;
   background: #ffffff;
   padding: 0.5rem 1rem;
+}
+
+@media (max-width: 800px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .formacao .subtitulo {
+    color: #141414;
+  }
+
+  .formacao-texto {
+    font-size: 1.8rem;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+
+  .empresa-ano::before {
+    content: 'Ano: ';
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
 }
