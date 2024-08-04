@@ -1,0 +1,155 @@
+.portfolio {
+  background: #141414;
+  color: #ffffff;
+}
+
+.portfolio-container {
+  max-width: 120rem;
+  padding: 12rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10rem;
+  position: relative;
+}
+
+.portfolio-container::after {
+  content: "";
+  display: block;
+  width: 13.5rem;
+  height: 13.5rem;
+  background: url(../img/leaf.svg) no-repeat center;
+  position: absolute;
+  bottom: -5rem;
+  left: 2rem;
+}
+
+.portfolio .subtitulo {
+  color: #000000;
+  max-width: 5ch;
+}
+
+.portfolio-texto {
+  font-size: 2.4rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 6rem;
+  color: #a3a3a3;
+}
+
+.portfolio-texto strong {
+  color: #ffffff;
+}
+
+.faculdade-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.faculdade {
+  flex: 1;
+  background: #000000;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.faculdade-tipo {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 1rem;
+}
+
+.faculdade-curso {
+  flex: 1;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.faculdade-curso::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#43794f, #0cf17f);
+  position: absolute;
+  left: -2.4rem;
+}
+
+.faculdade-instituicao {
+  font-size: 1.8rem;
+  color: #a3a3a3;
+}
+
+.trabalhos {
+  margin-bottom: 6rem;
+}
+
+.portfolio-extra h3 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.portfolio-extra h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -3.6rem;
+  top: -0.4rem;
+}
+
+.trabalhos h3::before {
+  background: url("../img/books.svg") no-repeat center center;
+}
+
+.idiomas h3::before {
+  background: url("../img/language.svg") no-repeat center center;
+}
+
+.portfolio-extra li {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.portfolio-extra span {
+  color: #8f8f8f;
+}
+
+.trabalhos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    padding: 6rem 2rem;
+    gap: 4rem;
+  }
+
+  .portfolio .subtitulo {
+    color: #ffffff;
+  }
+
+  .portfolio-texto {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-extra h3::before {
+    position: initial;
+    margin-bottom: 1rem;
+  }
+}
