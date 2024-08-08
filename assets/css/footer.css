@@ -39,7 +39,7 @@
 }
 
 .email::before {
-  content: url("../img/email-opened.svg");
+  content: url("../img/email.svg");
   position: absolute;
   left: -50px;
   top: 10px;
