@@ -1,14 +1,14 @@
 .footer {
-  background: #000000;
+  background: #141414;
 }
 
 .footer-container {
   max-width: 120rem;
-  padding: 12rem 2rem 6rem 2rem;
+  padding: 8rem 2rem 4rem 2rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10rem;
+  gap: 8rem 10rem;
   align-items: center;
 }
 
@@ -20,15 +20,38 @@
 
 .footer-contato li {
   font-weight: bold;
-  font-size: 3.6rem;
-  line-height: 1.1;
+  font-size: 3.4rem;
+  line-height: 1.33;
   color: #ffffff;
-  margin-bottom: 3rem;
+  margin: 3rem 0 3rem 3rem;
+  padding: 0.5rem;
+  position: relative;
 }
 
 .footer-contato li a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.email::before {
+  content: url("../img/email-opened.svg");
+  position: absolute;
+  left: -50px;
+  top: 10px;
+}
+
+.whatsapp::before {
+  content: url("../img/whatsapp.svg");
+  position: absolute;
+  left: -50px;
+  top: 10px;
+}
+
+.instagram::before {
+  content: url("../img/instagram.svg");
+  position: absolute;
+  left: -50px;
+  top: 12px;
 }
 
 .footer-copy {
@@ -38,13 +61,31 @@
   text-align: center;
 }
 
+@media (max-width: 1000px) {
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .footer-contato {
+    padding-left: 2rem;
+  }
+
+  .footer-contato li {
+    font-size: 3.2rem;
+  }
+}
+
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
     gap: 4rem;
   }
 
+  .footer-contato {
+    padding-left: 2.5rem;
+  }
+
   .footer-contato li {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
 }
