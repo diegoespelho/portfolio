@@ -1,9 +1,7 @@
-.tecnologias-container {
+.tecnologias {
   max-width: 120rem;
-  padding: 0rem 2rem 4rem 2rem;
+  padding: 4rem 2rem;
   margin: 0 auto;
-  padding: 10rem 0;
-  gap: 10rem;
 }
 
 .tecnologias h2 {
@@ -15,9 +13,8 @@
 }
 
 .tecnologias ul {
-  max-width: 120rem;
-  margin: 0 auto;
   display: grid;
+  margin: 5rem 0;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -42,20 +39,14 @@
 }
 
 @media (max-width: 800px) {
-  .tecnologias-container {
-    padding-top: 0;
-    margin-bottom: 8rem;
-  }
-
-  .tecnologias h2 {
-    margin-bottom: 3rem;
-  }
   .tecnologias ul {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .tecnologias li:nth-child(n + 3) {
     border-top: 2px solid #e0e0e0;
   }
+
   .tecnologias li:nth-child(odd) {
     border-left: none;
   }
