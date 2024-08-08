@@ -16,6 +16,11 @@
   font-size: 2.4rem;
   line-height: 1.33;
   color: #cccccc;
+  margin: 3rem;
+}
+
+.footer-contato {
+  justify-self: end;
 }
 
 .footer-contato li {
@@ -23,7 +28,7 @@
   font-size: 3.4rem;
   line-height: 1.33;
   color: #ffffff;
-  margin: 3rem 0 3rem 3rem;
+  margin: 3rem;
   padding: 0.5rem;
   position: relative;
 }
@@ -82,7 +87,8 @@
   }
 
   .footer-contato {
-    padding-left: 2.5rem;
+    padding-left: 5rem;
+    justify-self: start;
   }
 
   .footer-contato li {
