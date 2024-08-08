@@ -48,14 +48,14 @@
 .whatsapp::before {
   content: url("../img/whatsapp.svg");
   position: absolute;
-  left: -50px;
-  top: 10px;
+  left: -53px;
+  top: 7px;
 }
 
 .instagram::before {
   content: url("../img/instagram.svg");
   position: absolute;
-  left: -50px;
+  left: -52px;
   top: 12px;
 }
 
