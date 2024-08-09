@@ -5,7 +5,7 @@
 
 .formacao-container {
   max-width: 120rem;
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -34,8 +34,7 @@
   font-size: 2.4rem;
   line-height: 1.33;
   max-width: 40ch;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin: 5rem 0;
   color: #a3a3a3;
 }
 
@@ -47,7 +46,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin-bottom: 6rem;
+  margin: 5rem 0;
 }
 
 .graduacao {
@@ -90,7 +89,7 @@
 }
 
 .cursos-intensivos {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .formacao-extra h3 {
@@ -133,6 +132,10 @@
 .cursos-intensivos li {
   display: flex;
   justify-content: space-between;
+}
+
+.idiomas {
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 800px) {
