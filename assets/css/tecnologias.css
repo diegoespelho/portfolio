@@ -1,20 +1,20 @@
 .tecnologias {
   max-width: 120rem;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   margin: 0 auto;
 }
 
 .tecnologias h2 {
   font-size: 3.8rem;
   color: #e0e0e0;
-  margin-bottom: 5rem;
   text-transform: uppercase;
   text-align: center;
 }
 
 .tecnologias ul {
   display: grid;
-  margin: 5rem 0;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
   grid-template-columns: repeat(4, 1fr);
 }
 
