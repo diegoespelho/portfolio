@@ -1,0 +1,23 @@
+/* fonte */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+
+/* global */
+@import url("global.css");
+
+/* header */
+@import url("header.css");
+
+/* sobre mim */
+@import url("sobre.css");
+
+/* formação */
+@import url("formacao.css");
+
+/* portfólio */
+@import url("portfolio.css");
+
+/* tecnologias */
+@import url("tecnologias.css");
+
+/* footer */
+@import url("footer.css");

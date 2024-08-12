@@ -1,0 +1,147 @@
+/* Configuração da section sobre */
+.sobre {
+  max-width: 1200px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: start;
+}
+
+/* Limita o conteúdo das informações */
+.sobre-conteudo {
+  max-width: 700px;
+  margin: 150px 0 75px 0;
+}
+
+/* Configurações do h1 */
+.sobre-conteudo h1 {
+  position: relative;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Configurações do h3 */
+.sobre-conteudo h3 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #39a550;
+}
+
+/* Configurações do p */
+.sobre-conteudo p {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin: 20px 0;
+  color: #525252;
+}
+
+/* Configurações dos botões saber mais e contato */
+.sobre-conteudo .botoes {
+  position: relative;
+  display: flex;
+  margin: 60px 0;
+  justify-content: space-between;
+  width: 350px;
+  height: 50px;
+}
+
+.botoes a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #39a550;
+  border: 2px solid #39a550;
+  border-radius: 8px;
+  font-size: 1.187rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.botoes a:hover {
+  color: #39a550;
+}
+
+.botoes a:nth-child(2) {
+  background: transparent;
+  color: #39a550;
+}
+
+.botoes a:nth-child(2):hover {
+  color: #ffffff;
+}
+
+.botoes a:nth-child(2)::before {
+  background: #39a550;
+}
+
+.botoes a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ffffff;
+  z-index: -1;
+  transition: 500ms;
+}
+
+.botoes a:hover::before {
+  width: 100%;
+}
+
+/* Configurações dos icones das redes sociais */
+.redes-sociais {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes-sociais a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #525252;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #525252;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.redes-sociais a:hover {
+  color: #ffffff;
+}
+
+.redes-sociais a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #141414;
+  z-index: -1;
+  transition: 500ms;
+}
+
+.redes-sociais a:hover::before {
+  width: 100%;
+}
