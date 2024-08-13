@@ -67,6 +67,11 @@
   color: #141414;
 }
 
+.projeto-titulo a::after {
+  content: url('../img/cursor-click.svg');
+  padding-left: 5px;
+}
+
 .projeto-texto {
   font-size: 0.875rem;
   line-height: 1.5;
