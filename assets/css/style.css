@@ -19,5 +19,8 @@
 /* tecnologias */
 @import url("tecnologias.css");
 
+/* contato */
+@import url('contato.css');
+
 /* footer */
 @import url("footer.css");
