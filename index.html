@@ -152,35 +152,19 @@
     </ul>
   </section>
 
-  <section id="contato" class="contato" aria-label="Formulário de contato">
-    <div class="contato-form">
-      <fieldset class="grid-form">
-        <legend>Me contate</legend>
+  <section class="contato" id="contato" aria-label="Formulário de contato">
+    <div class="form-box">
+      <h2 class="titulo">Contato</h2>
 
-        <div class="grupo-form">
-          <label for="primeiro-nome">Primeiro nome</label>
-          <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="Seu nome">
-        </div>
+      <form action="" method="get">
+        <input type="text" name="nome" placeholder="Seu nome">
+        <input type="email" name="email" placeholder="Seu e-mail">
+        <input type="text" name="assunto" placeholder="Assunto">
 
-        <div class="grupo-form">
-          <label for="ultimo nome">Último nome</label>
-          <input type="text" name="ultimo-nome" id="ultimo-nome" placeholder="Seu sobrenome">
-        </div>
+        <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
 
-        <div class="grupo-form">
-          <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" placeholder="Seu e-mail">
-        </div>
-
-        <div class="grupo-form full-width">
-          <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        </div>
-
-        <div class="grupo-form full-width">
-          <button type="submit">Enviar</button>
-        </div>
-      </fieldset>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
     </div>
   </section>
 
