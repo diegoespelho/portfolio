@@ -1,44 +1,4 @@
-.header {
-  background: #141414;
-  padding: 20px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  height: 60px;
-  margin: 0 auto;
-}
-
-.logo {
-  font-size: 2.18rem;
-  font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: default;
-}
-
-.nav-lista {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-lista a {
-  font-size: 1.125rem;
-  line-height: 2;
-  color: #a3a3a3;
-  padding: 16px 0;
-  text-decoration: none;
-}
-
-.hamburger {
-   
-}
-
-/* configuração da header do site
+/* configuração da header do site */
 .header {
   background: #141414;
   color: #ffffff;
@@ -110,4 +70,4 @@
     border-radius: 4px;
     padding: 10px 10px;
   }
-} */
+}
