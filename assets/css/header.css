@@ -23,7 +23,7 @@
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  cursor: default;
+  cursor: pointer;
 }
 
 .header-menu {
