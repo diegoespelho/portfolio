@@ -25,7 +25,7 @@ Portfólio pessoal sendo desenvolvido e atualizado constantemente com novos proj
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,git,github,figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,git,github,figma)](https://skillicons.dev)
 
 ## 💻 Projeto
 
