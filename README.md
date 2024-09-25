@@ -18,7 +18,7 @@ Portfólio pessoal sendo desenvolvido e atualizado constantemente com novos proj
 <br>
 
 <p align="center">
-  <img alt="Portfólio" src=".github/preview.jpg" width="100%">
+  <img alt="Portfólio" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
