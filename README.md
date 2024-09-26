@@ -21,9 +21,9 @@ Portfólio pessoal sendo desenvolvido e atualizado constantemente com novos proj
   <img alt="Portfólio" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias e Ferramentas
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,git,github,figma)](https://skillicons.dev)
 
@@ -35,7 +35,7 @@ Portfólio pessoal.
 
 ## 🔖 Layout
 
-O layout deste portfólio foi desenvolvido utilizando a ferramenta Figma.
+O layout deste portfólio foi desenvolvido utilizando a ferramenta de design Figma.
 
 ## 📝 Licença
 
